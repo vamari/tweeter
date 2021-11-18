@@ -1,0 +1,51 @@
+/* .new-tweet {
+
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+} */
+
+#tweet-text {
+  width: 100%;
+  display: flex;
+  border: none;
+  border-bottom: solid;
+  resize: none;
+  margin-top: 10px;
+  outline: none;
+  background-color: transparent;
+
+}
+
+
+.tweet-button {
+ 
+  font-family: Bungee;
+  margin-top: 10px;
+  background-color:  #4056A1;
+  color: aliceblue;
+
+
+}
+
+.counter {
+ font-family: Bungee;
+ color: red; 
+ color: black;
+ 
+
+}
+.spacing {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* #tweet-text {
+
+}
+document.addEventListener("click", () => {
+  alert("You clicked somewhere on google.com!");
+}); */
